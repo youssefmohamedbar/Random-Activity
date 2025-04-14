@@ -1,0 +1,33 @@
+.div {
+  background-color: #fff0bd;
+  text-align: center;
+  border-radius: 10px;
+}
+body {
+  background: linear-gradient(90deg, #ffcdb2, #ffb4a2, #e5989b, #b5828c);
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: cursive;
+}
+button {
+  background-color: #f0a8aa;
+  color: rgb(255, 255, 255);
+}
+input,
+select,
+button {
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: solid rgba(255, 111, 243, 0.247);
+}
+.p {
+  font-size: 19px;
+  font-weight: bold;
+}
